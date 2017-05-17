@@ -80,7 +80,7 @@ module.exports = {
     // 'no-labels': 0,
     'no-lone-blocks': 1,
     // 'no-loop-func': 0,
-    'no-magic-numbers': 1,
+    // 'no-magic-numbers': 0,
     'no-multi-spaces': 1,
     'no-multi-str': 1,
     'no-new-func': 2,
