@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-lowmess",
+  "version": "0.0.0",
+  "description": "ESLint Config for use by me",
+  "main": "index.js",
+  "repository": "https://github.com/lowmess/eslint-config-lowmess.git",
+  "author": "Alec Lomas <alec@lowmess.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.13.3",
+    "lint-staged": "^3.4.1",
+    "prettier": "^1.3.1"
+  },
+  "scripts": {
+    "lint-staged": "lint-staged",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --trailing-comma es5 --semi false --write",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
