@@ -1,6 +1,8 @@
 'use strict'
 
 module.exports = {
+  extends: ['prettier'],
+  plugins: ['prettier'],
   rules: {
     // The rules below are listed in the order they appear on the eslint
     // rules page. All rules are listed to make it easier to keep in sync
@@ -266,5 +268,10 @@ module.exports = {
     // 'symbol-description': 0,
     // 'template-curly-spacing': 0,
     // 'yield-star-spacing': 0,
+
+    // Plugin rules
+    // https://eslint.org/docs/user-guide/configuring#configuring-plugins
+    // ------------------------------------------------------------------
+    'prettier/prettier': 'error',
   },
 }
