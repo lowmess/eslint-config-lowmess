@@ -15,9 +15,9 @@
   },
   "devDependencies": {
     "eslint": "3.19.0",
-    "husky": "^0.13.3",
-    "lint-staged": "^3.4.1",
-    "prettier": "^1.7.0"
+    "husky": "^0.13.4",
+    "lint-staged": "^3.6.1",
+    "prettier": "^1.16.1"
   },
   "scripts": {
     "precommit": "lint-staged"
