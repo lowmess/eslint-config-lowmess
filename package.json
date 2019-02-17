@@ -8,7 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "eslint-config-prettier": "^4.0.0",
-    "eslint-plugin-prettier": "^3.0.1"
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4"
   },
   "peerDependencies": {
     "eslint": "^5.0.0"
