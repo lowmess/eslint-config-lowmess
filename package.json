@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lowmess",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "ESLint Config for use by me",
   "main": "index.js",
   "repository": "https://github.com/lowmess/eslint-config-lowmess.git",
