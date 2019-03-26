@@ -6,7 +6,7 @@ module.exports = {
     'prettier',
     'prettier/react',
   ],
-  plugins: ['react', 'jsx-a11y'],
+  plugins: ['react', 'react-hooks', 'jsx-a11y'],
   env: {
     es6: true,
   },
@@ -15,5 +15,9 @@ module.exports = {
     exmaFeatures: {
       jsx: true,
     },
+  },
+  rules: {
+    'react-hooks/rules-of-hooks': 2,
+    'react-hooks/exhaustive-deps': 1,
   },
 }
