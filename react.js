@@ -7,6 +7,7 @@ module.exports = {
     'prettier/react',
   ],
   plugins: ['react', 'jsx-a11y'],
+  parser: 'babel-eslint',
   parserOptions: {
     exmaFeatures: {
       jsx: true,
