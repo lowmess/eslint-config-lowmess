@@ -1,9 +1,7 @@
-'use strict'
-
 module.exports = {
-  extends: ['./lib/rules.js', 'prettier'],
+  parser: 'babel-eslint',
   env: {
     es6: true,
   },
-  parser: 'babel-eslint',
+  extends: ['./lib/rules.js', 'prettier'],
 }
