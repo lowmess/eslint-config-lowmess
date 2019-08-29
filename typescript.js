@@ -8,7 +8,7 @@ module.exports = {
   env: {
     es6: true,
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'import'],
   extends: [
     './lib/rules.js',
     'plugin:@typescript-eslint/recommended',

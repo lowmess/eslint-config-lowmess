@@ -15,7 +15,7 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: ['react-hooks'],
+  plugins: ['import', 'jsx-a11y', 'react', 'react-hooks'],
   extends: [
     './lib/rules.js',
     'plugin:react/recommended',

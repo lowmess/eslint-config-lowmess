@@ -7,6 +7,7 @@ module.exports = {
   env: {
     es6: true,
   },
+  plugins: ['import'],
   extends: [
     './lib/rules.js',
     'plugin:import/warnings',
