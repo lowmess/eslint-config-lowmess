@@ -7,5 +7,10 @@ module.exports = {
   env: {
     es6: true,
   },
-  extends: ['./lib/rules.js', 'prettier'],
+  extends: [
+    './lib/rules.js',
+    'plugin:import/warnings',
+    'plugin:import/errors',
+    'prettier',
+  ],
 }

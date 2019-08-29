@@ -12,6 +12,9 @@ module.exports = {
   extends: [
     './lib/rules.js',
     'plugin:@typescript-eslint/recommended',
+    'plugin:import/warnings',
+    'plugin:import/errors',
+    'plugin:import/typescript',
     'prettier',
     'prettier/@typescript-eslint',
   ],
