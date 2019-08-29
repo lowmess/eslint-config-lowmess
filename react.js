@@ -1,13 +1,20 @@
 module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
     exmaFeatures: {
       jsx: true,
     },
   },
-  plugins: ['react', 'react-hooks', 'jsx-a11y'],
   env: {
     es6: true,
+  },
+  plugins: ['react', 'react-hooks', 'jsx-a11y'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
   extends: [
     './lib/rules.js',
@@ -19,10 +26,5 @@ module.exports = {
   rules: {
     'react-hooks/rules-of-hooks': 2,
     'react-hooks/exhaustive-deps': 1,
-  },
-  settings: {
-    react: {
-      version: 'detect',
-    },
   },
 }
