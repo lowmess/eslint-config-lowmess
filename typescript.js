@@ -8,6 +8,14 @@ module.exports = {
   env: {
     es6: true,
   },
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      typescript: {},
+    },
+  },
   plugins: ['@typescript-eslint', 'import'],
   extends: [
     './lib/rules.js',
