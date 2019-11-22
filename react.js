@@ -14,7 +14,11 @@ module.exports = {
     react: {
       version: 'detect',
     },
-    'import/extensions': ['.js', '.jsx'],
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx'],
+      },
+    },
   },
   plugins: ['react-hooks'],
   extends: [
@@ -23,6 +27,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:import/warnings',
     'plugin:import/errors',
+    'plugin:import/react',
     'prettier',
     'prettier/react',
   ],
