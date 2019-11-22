@@ -16,7 +16,6 @@ module.exports = {
       typescript: {},
     },
   },
-  plugins: ['@typescript-eslint', 'import'],
   extends: [
     './lib/rules.js',
     'plugin:@typescript-eslint/recommended',
