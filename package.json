@@ -6,6 +6,9 @@
   "repository": "https://github.com/lowmess/eslint-config-lowmess.git",
   "author": "Alec Lomas <alec@lowmess.com>",
   "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
@@ -27,11 +30,6 @@
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "prettier-config-lowmess": "^0.3.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.js": [
