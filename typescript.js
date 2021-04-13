@@ -24,4 +24,8 @@ module.exports = {
 		'plugin:import/typescript',
 		'prettier',
 	],
+	rules: {
+		'no-use-before-define': 0,
+		'@typescript-eslint/no-use-before-define': 1,
+	},
 }
